@@ -7,6 +7,11 @@ Zombie::Zombie(std::string type, std::string name)
 	std::cout << "Zombie " << name << " is appeared." << std::endl;
 }
 
+Zombie::Zombie(void)
+{
+	std::cout << "Zombie is appeared." << std::endl;
+}
+
 Zombie::~Zombie(void)
 {
 	std::cout << "Zombie " << name << " is dead." << std::endl;
@@ -14,6 +19,13 @@ Zombie::~Zombie(void)
 
 void Zombie::announce(void)
 {
-	std::cout << "<" << name << " ("
-	<< type << ")>  Braiiiiiiinnnssss..." << std::endl;
+
+	std::cout << "<";
+	if (name != "")
+		std::cout << name;
+	else
+		std::cout << "zombie";
+	if (type != "")
+		std::cout << " (" << type << ")";
+	std::cout << ">  Braiiiiiiinnnssss..." << std::endl;
 }

@@ -13,8 +13,8 @@ Zombie		*ZombieEvent::newZombie(std::string name)
 
 void		ZombieEvent::randomChump(void)
 {
-	static std::string names[] = {"John", "Mary", "Kate", "Andrew"};
+	static std::string names[] = {"John", "Mary", "Kate", "Andrew", "Lloyd", "James", "Elle"};
 	srand(time(NULL));
-	Zombie zombie = Zombie(type, names[rand() % 4]);
+	Zombie zombie = Zombie(type, names[rand() % 7]);
 	zombie.announce();
 }
