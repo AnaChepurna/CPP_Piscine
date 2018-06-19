@@ -1,9 +1,10 @@
 CC = clang++
 CFLAGS = -Wall -Wextra -Werror
-NAME = brainless
+NAME = violence
 SRC =   main.cpp \
-		Brain.cpp \
-		Human.cpp
+		Weapon.cpp \
+		HumanA.cpp \
+		HumanB.cpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(NAME)
