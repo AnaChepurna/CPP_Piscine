@@ -2,6 +2,8 @@
 #define ZOMBIE_HPP
 
 #include <iostream>
+#include <cstdlib>
+#include <time.h>
 
 class Zombie
 {
@@ -14,6 +16,8 @@ public:
 	Zombie(void);
 	~Zombie(void);
 	void	announce(void);
+
+	static std::string	randomName(void);
 };
 
 #endif
