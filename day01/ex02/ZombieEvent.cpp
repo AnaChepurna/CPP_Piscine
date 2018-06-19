@@ -11,10 +11,16 @@ Zombie		*ZombieEvent::newZombie(std::string name)
 	return (zombie);
 }
 
+std::string	ZombieEvent::randomName(void)
+{
+	static std::string names[] = {"John", "Mary", "Kate", "Andrew", "Lloyd",
+	"James", "Elle", "Sonya", "Elvis", "Bobby", "Link"};
+	srand(time(NULL));
+	return (names[rand() % 10]);
+}
+
 void		ZombieEvent::randomChump(void)
 {
-	static std::string names[] = {"John", "Mary", "Kate", "Andrew", "Lloyd", "James", "Elle"};
-	srand(time(NULL));
-	Zombie zombie = Zombie(type, names[rand() % 7]);
+	Zombie zombie = Zombie(type, randomName());
 	zombie.announce();
 }
