@@ -1,10 +1,19 @@
 #include "ZombieHorde.hpp"
 
-std::string	ZombieHorde::randomName(void)
+ZombieHorde::ZombieHorde(int number)
 {
-	static std::string names[] = {"John", "Mary", "Kate", "Andrew", "Lloyd",
-	"James", "Elle", "Sonya", "Elvis", "Bobby", "Link"};
-	srand(time(NULL));
-	return (names[rand() % 10]);
+	this->number = number;
+	horde = new Zombie[number];
 }
 
+ZombieHorde::~ZombieHorde(void)
+{
+	delete [] horde;
+}
+
+void	ZombieHorde::announce(void)
+{
+	int i = -1;
+	while (++i < number)
+		horde[i].announce();
+}

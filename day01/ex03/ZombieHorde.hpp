@@ -7,9 +7,10 @@ class ZombieHorde
 {
 private:
 	Zombie 	*horde;
+	int		number;
 
 public:
-	ZombieHorde(int n);
+	ZombieHorde(int number);
 	~ZombieHorde(void);
 	void	announce(void);
 };

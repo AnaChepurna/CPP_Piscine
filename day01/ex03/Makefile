@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -Werror
 NAME = zombieland
 SRC =   main.cpp \
 		Zombie.cpp \
-		ZombieEvent.cpp
+		ZombieHorde.cpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(NAME)

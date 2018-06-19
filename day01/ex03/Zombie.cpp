@@ -1,5 +1,15 @@
 #include "Zombie.hpp"
 
+std::string	Zombie::randomName(void)
+{
+	static int n = 0;
+	static std::string names[] = {"John", "Mary", "Kate", "Andrew", "Lloyd",
+	"James", "Elle", "Sonya", "Elvis", "Bobby", "Link"};
+	if (!n++)
+		srand(time(0));
+	return (names[rand() % 10]);
+}
+
 Zombie::Zombie(std::string type, std::string name)
 {
 	this->type = type;
@@ -9,7 +19,8 @@ Zombie::Zombie(std::string type, std::string name)
 
 Zombie::Zombie(void)
 {
-	std::cout << "Zombie is appeared." << std::endl;
+	this->name = randomName();
+	std::cout << "Zombie " << name << " is appeared." << std::endl;
 }
 
 Zombie::~Zombie(void)
