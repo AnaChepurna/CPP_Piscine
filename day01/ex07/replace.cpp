@@ -1,35 +1,27 @@
 #include <fstream>
 #include <iostream>
 
-std::streampos		getStreamSize(std::ifstream *src)
-{
-	std::streampos size;
-
-	src->seekg(0, std::ios::end);
-	size = src->tellg();
-	src->seekg(0, std::ios::beg);
-	return (size);
-}
-
 void	replace(char *filename, std::string str1, std::string str2)
 {
 	std::string 	newfile;
 	std::ifstream	src;
 	std::ofstream	dst;
+	char buf;
+	std::string buffer;
 
-	newfile = filename;
-	newfile += ".replace";
 	src.open(filename);
 	if (src.is_open())
 	{
-		dst.open(newfile.data());
-		std::streampos	size = getStreamSize(&src);
-		std::string	buffer(size, ' ');
-		src.read(&buffer[0], size);
+		while(src.read(&buf, 1))
+			buffer += buf;
 		while ((int)buffer.find(str1) != -1)
 			buffer.replace(buffer.find(str1), str1.size(), str2);
-		dst << buffer;
 		src.close();
+
+		newfile = filename;
+		newfile += ".replace";
+		dst.open(newfile.data());
+		dst << buffer;
 	}
 	else
 		std::cout << "Error: cannot open file \"" << filename << "\"." << std::endl;
