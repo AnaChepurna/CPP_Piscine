@@ -11,6 +11,7 @@ public:
     ScavTrap(std::string const name);
 	ScavTrap(ScavTrap const & src);
     ~ScavTrap(void);
+    ScavTrap & operator=(ScavTrap const & src);
 
 	int		rangedAttack(std::string const & target);
 	int		meleeAttack(std::string const & target);

@@ -69,3 +69,8 @@ void	ScavTrap::challengeNewcomer()
 	else
 		std::cout << "ScavTrap " << name << " has no energy" << std::endl;
 }
+
+ScavTrap & ScavTrap::operator=(ScavTrap const & src)
+{
+	*this = src;
+}

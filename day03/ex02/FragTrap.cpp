@@ -70,3 +70,8 @@ int    FragTrap::vaulthunter_dot_exe(std::string const & target) {
 		std::cout << "FR4G-TP " << name << " has no energy" << std::endl;
 	return (0);
 }
+
+FragTrap & FragTrap::operator=(FragTrap const & src)
+{
+	*this = src;
+}

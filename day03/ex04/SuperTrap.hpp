@@ -13,6 +13,7 @@ public:
     SuperTrap(std::string const name);
 	SuperTrap(SuperTrap const & src);
     ~SuperTrap(void);
+    SuperTrap & operator=(SuperTrap const & src);
 
 	int		rangedAttack(std::string const & target);
 	int		meleeAttack(std::string const & target);

@@ -56,3 +56,8 @@ int		SuperTrap::meleeAttack(std::string const & target)
 {
 	return(NinjaTrap::meleeAttack(target));
 }
+
+SuperTrap & SuperTrap::operator=(SuperTrap const & src)
+{
+	*this = src;
+}

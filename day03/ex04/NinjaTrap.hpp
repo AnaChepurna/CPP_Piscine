@@ -20,6 +20,7 @@ public:
     NinjaTrap(std::string const name);
 	NinjaTrap(NinjaTrap const & src);
     ~NinjaTrap(void);
+    NinjaTrap & operator=(NinjaTrap const & src);
 
 	int		rangedAttack(std::string const & target);
 	int		meleeAttack(std::string const & target);

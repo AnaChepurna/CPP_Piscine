@@ -99,3 +99,8 @@ int		NinjaTrap::ninjaShoebox(ScavTrap & target)
 		return (0);
 	}
 }
+
+NinjaTrap & NinjaTrap::operator=(NinjaTrap const & src)
+{
+	*this = src;
+}
