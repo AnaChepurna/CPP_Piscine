@@ -2,30 +2,41 @@
 
 FragTrap::FragTrap(void): ClapTrap()
 {
-	hit_points = 100;
-	max_hit_points = 100;
-	energy_points = 100;
-	max_energy_points = 100;
-	level = 1;
+	hit_points = _max_hit_points;
+	max_hit_points = _max_hit_points;
+	energy_points = _max_energy_points;
+	max_energy_points = _max_energy_points;
+	level = _level;
 	name = "John";
-	melee_attack_damage = 30;
-	ranged_attack_damage = 20;
-	armor_damage_reduction = 5;
+	melee_attack_damage = _melee_attack_damage;
+	ranged_attack_damage = _ranged_attack_damage;
+	armor_damage_reduction = _armor_damage_reduction;
 	std::cout << "Some FragTrap John is here" << std::endl;
 }
 
 FragTrap::FragTrap(std::string const name): ClapTrap()
  {
- 	hit_points = 100;
-	max_hit_points = 100;
-	energy_points = 100;
-	max_energy_points = 100;
+	hit_points = _max_hit_points;
+	max_hit_points = _max_hit_points;
+	energy_points = _max_energy_points;
+	max_energy_points = _max_energy_points;
 	level = 1;
 	this->name = name;
-	melee_attack_damage = 30;
-	ranged_attack_damage = 20;
-	armor_damage_reduction = 5;
+	melee_attack_damage = _melee_attack_damage;
+	ranged_attack_damage = _ranged_attack_damage;
+	armor_damage_reduction = _armor_damage_reduction;
  	std::cout << "Some FragTrap " << name << " is here" << std::endl;
+
+ 	// std::cout << "hit_points" << "=" <<  hit_points << std::endl;
+ 	// std::cout << "max_hit_points" << "=" <<  max_hit_points << std::endl;
+ 	// std::cout << "energy_points" << "=" << energy_points << std::endl;
+ 	// std::cout << "max_energy_points" << "=" <<  max_energy_points << std::endl;
+ 	// std::cout << "level" << "=" <<  level << std::endl;
+ 	// std::cout << "name" << "=" <<  name << std::endl;
+ 	// std::cout << "melee_attack_damage" << "=" << melee_attack_damage << std::endl;
+ 	// std::cout << "ranged_attack_damage" << "=" << ranged_attack_damage << std::endl;
+ 	// std::cout << "armor_damage_reduction" << "=" << armor_damage_reduction << std::endl;
+
  }
 
 FragTrap::FragTrap(FragTrap const & src): ClapTrap(src)

@@ -5,7 +5,7 @@ ScavTrap::ScavTrap(void): ClapTrap()
 	hit_points = 100;
 	max_hit_points = 100;
 	energy_points = 50;
-	max_hit_points = 50;
+	max_energy_points = 50;
 	level = 1;
 	name = "John";
 	melee_attack_damage = 20;
@@ -19,7 +19,7 @@ ScavTrap::ScavTrap(std::string const name): ClapTrap()
  	hit_points = 100;
 	max_hit_points = 100;
 	energy_points = 50;
-	max_hit_points = 50;
+	max_energy_points = 50;
 	level = 1;
 	this->name = name;
 	melee_attack_damage = 20;

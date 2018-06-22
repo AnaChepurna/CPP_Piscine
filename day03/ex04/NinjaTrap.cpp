@@ -1,31 +1,50 @@
 #include "NinjaTrap.hpp"
 
+int		NinjaTrap::_max_hit_points = 60;
+int		NinjaTrap::_max_energy_points = 120;
+int 	NinjaTrap::_level = 1;
+int 	NinjaTrap::_melee_attack_damage = 60;
+int		NinjaTrap::_ranged_attack_damage = 5;
+int		NinjaTrap::_armor_damage_reduction = 0;
+
+
 NinjaTrap::NinjaTrap(void): ClapTrap()
 {
-	hit_points = 60;
-	max_hit_points = 60;
-	energy_points = 120;
-	max_energy_points = 120;
-	level = 1;
+	hit_points = _max_hit_points;
+	max_hit_points = _max_hit_points;
+	energy_points = _max_energy_points;
+	max_energy_points = _max_energy_points;
+	level = _level;
 	name = "John";
-	melee_attack_damage = 60;
-	ranged_attack_damage = 5;
-	armor_damage_reduction = 0;
-	std::cout << "Some Ninja Trap John is here" << std::endl;
+	melee_attack_damage = _melee_attack_damage;
+	ranged_attack_damage = _ranged_attack_damage;
+	armor_damage_reduction = _armor_damage_reduction;
+	std::cout << "Some NinjaTrap John is here" << std::endl;
 }
 
 NinjaTrap::NinjaTrap(std::string const name): ClapTrap()
  {
- 	hit_points = 60;
-	max_hit_points = 60;
-	energy_points = 120;
-	max_energy_points = 120;
+	hit_points = _max_hit_points;
+	max_hit_points = _max_hit_points;
+	energy_points = _max_energy_points;
+	max_energy_points = _max_energy_points;
 	level = 1;
 	this->name = name;
-	melee_attack_damage = 60;
-	ranged_attack_damage = 5;
-	armor_damage_reduction = 0;
+	melee_attack_damage = _melee_attack_damage;
+	ranged_attack_damage = _ranged_attack_damage;
+	armor_damage_reduction = _armor_damage_reduction;
  	std::cout << "Some NinjaTrap " << name << " is here" << std::endl;
+
+ 	// std::cout << "hit_points" << "=" <<  hit_points << std::endl;
+ 	// std::cout << "max_hit_points" << "=" <<  max_hit_points << std::endl;
+ 	// std::cout << "energy_points" << "=" << energy_points << std::endl;
+ 	// std::cout << "max_energy_points" << "=" <<  max_energy_points << std::endl;
+ 	// std::cout << "level" << "=" <<  level << std::endl;
+ 	// std::cout << "name" << "=" <<  name << std::endl;
+ 	// std::cout << "melee_attack_damage" << "=" << melee_attack_damage << std::endl;
+ 	// std::cout << "ranged_attack_damage" << "=" << ranged_attack_damage << std::endl;
+ 	// std::cout << "armor_damage_reduction" << "=" << armor_damage_reduction << std::endl;
+ 
  }
 
 NinjaTrap::NinjaTrap(NinjaTrap const & src): ClapTrap(src)

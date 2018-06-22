@@ -5,8 +5,15 @@
 #include "FragTrap.hpp"
 #include "ScavTrap.hpp"
 
-class NinjaTrap : public ClapTrap
+class NinjaTrap : public virtual ClapTrap
 {
+protected:
+	static int		_max_hit_points;
+	static int		_max_energy_points;
+	static int		_level;
+	static int		_melee_attack_damage;
+	static int		_ranged_attack_damage;
+	static int		_armor_damage_reduction;
 
 public:
 	NinjaTrap(void);
