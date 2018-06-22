@@ -14,6 +14,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/piscine_cpp.dir/day02/ex00/Fixed.cpp.o"
   "CMakeFiles/piscine_cpp.dir/day02/ex00/main.cpp.o"
   "CMakeFiles/piscine_cpp.dir/day02/ex04/utils.cpp.o"
+  "CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o"
+  "CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o"
+  "CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o"
   "piscine_cpp.pdb"
   "piscine_cpp"
 )

@@ -417,6 +417,78 @@ CMakeFiles/piscine_cpp.dir/day02/ex04/utils.cpp.o.provides: CMakeFiles/piscine_c
 CMakeFiles/piscine_cpp.dir/day02/ex04/utils.cpp.o.provides.build: CMakeFiles/piscine_cpp.dir/day02/ex04/utils.cpp.o
 
 
+CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o: CMakeFiles/piscine_cpp.dir/flags.make
+CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o: ../day04/ex01/AWeapon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o -c /Users/achepurn/piscine_cpp/day04/ex01/AWeapon.cpp
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/achepurn/piscine_cpp/day04/ex01/AWeapon.cpp > CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.i
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/achepurn/piscine_cpp/day04/ex01/AWeapon.cpp -o CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.s
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o.requires:
+
+.PHONY : CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o.requires
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o.provides: CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o.requires
+	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o.provides.build
+.PHONY : CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o.provides
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o.provides.build: CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o
+
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o: CMakeFiles/piscine_cpp.dir/flags.make
+CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o: ../day04/ex01/PlasmaRifle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o -c /Users/achepurn/piscine_cpp/day04/ex01/PlasmaRifle.cpp
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/achepurn/piscine_cpp/day04/ex01/PlasmaRifle.cpp > CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.i
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/achepurn/piscine_cpp/day04/ex01/PlasmaRifle.cpp -o CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.s
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o.requires:
+
+.PHONY : CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o.requires
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o.provides: CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o.requires
+	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o.provides.build
+.PHONY : CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o.provides
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o.provides.build: CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o
+
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o: CMakeFiles/piscine_cpp.dir/flags.make
+CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o: ../day04/ex01/PowerFist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o -c /Users/achepurn/piscine_cpp/day04/ex01/PowerFist.cpp
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/achepurn/piscine_cpp/day04/ex01/PowerFist.cpp > CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.i
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/achepurn/piscine_cpp/day04/ex01/PowerFist.cpp -o CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.s
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o.requires:
+
+.PHONY : CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o.requires
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o.provides: CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o.requires
+	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o.provides.build
+.PHONY : CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o.provides
+
+CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o.provides.build: CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o
+
+
 # Object files for target piscine_cpp
 piscine_cpp_OBJECTS = \
 "CMakeFiles/piscine_cpp.dir/day00/ex00/megaphone.cpp.o" \
@@ -433,7 +505,10 @@ piscine_cpp_OBJECTS = \
 "CMakeFiles/piscine_cpp.dir/day01/ex10/main.cpp.o" \
 "CMakeFiles/piscine_cpp.dir/day02/ex00/Fixed.cpp.o" \
 "CMakeFiles/piscine_cpp.dir/day02/ex00/main.cpp.o" \
-"CMakeFiles/piscine_cpp.dir/day02/ex04/utils.cpp.o"
+"CMakeFiles/piscine_cpp.dir/day02/ex04/utils.cpp.o" \
+"CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o" \
+"CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o" \
+"CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o"
 
 # External object files for target piscine_cpp
 piscine_cpp_EXTERNAL_OBJECTS =
@@ -453,9 +528,12 @@ piscine_cpp: CMakeFiles/piscine_cpp.dir/day01/ex10/main.cpp.o
 piscine_cpp: CMakeFiles/piscine_cpp.dir/day02/ex00/Fixed.cpp.o
 piscine_cpp: CMakeFiles/piscine_cpp.dir/day02/ex00/main.cpp.o
 piscine_cpp: CMakeFiles/piscine_cpp.dir/day02/ex04/utils.cpp.o
+piscine_cpp: CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o
+piscine_cpp: CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o
+piscine_cpp: CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o
 piscine_cpp: CMakeFiles/piscine_cpp.dir/build.make
 piscine_cpp: CMakeFiles/piscine_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable piscine_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable piscine_cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/piscine_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -478,6 +556,9 @@ CMakeFiles/piscine_cpp.dir/requires: CMakeFiles/piscine_cpp.dir/day01/ex10/main.
 CMakeFiles/piscine_cpp.dir/requires: CMakeFiles/piscine_cpp.dir/day02/ex00/Fixed.cpp.o.requires
 CMakeFiles/piscine_cpp.dir/requires: CMakeFiles/piscine_cpp.dir/day02/ex00/main.cpp.o.requires
 CMakeFiles/piscine_cpp.dir/requires: CMakeFiles/piscine_cpp.dir/day02/ex04/utils.cpp.o.requires
+CMakeFiles/piscine_cpp.dir/requires: CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o.requires
+CMakeFiles/piscine_cpp.dir/requires: CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o.requires
+CMakeFiles/piscine_cpp.dir/requires: CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o.requires
 
 .PHONY : CMakeFiles/piscine_cpp.dir/requires
 

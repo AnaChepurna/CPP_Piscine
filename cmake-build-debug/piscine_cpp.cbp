@@ -146,6 +146,24 @@
 		<Unit filename="/Users/achepurn/piscine_cpp/day02/ex04/utils.h">
 			<Option target="piscine_cpp"/>
 		</Unit>
+		<Unit filename="/Users/achepurn/piscine_cpp/day04/ex01/AWeapon.cpp">
+			<Option target="piscine_cpp"/>
+		</Unit>
+		<Unit filename="/Users/achepurn/piscine_cpp/day04/ex01/AWeapon.hpp">
+			<Option target="piscine_cpp"/>
+		</Unit>
+		<Unit filename="/Users/achepurn/piscine_cpp/day04/ex01/PlasmaRifle.cpp">
+			<Option target="piscine_cpp"/>
+		</Unit>
+		<Unit filename="/Users/achepurn/piscine_cpp/day04/ex01/PlasmaRifle.h">
+			<Option target="piscine_cpp"/>
+		</Unit>
+		<Unit filename="/Users/achepurn/piscine_cpp/day04/ex01/PowerFist.cpp">
+			<Option target="piscine_cpp"/>
+		</Unit>
+		<Unit filename="/Users/achepurn/piscine_cpp/day04/ex01/PowerFist.h">
+			<Option target="piscine_cpp"/>
+		</Unit>
 		<Unit filename="/Users/achepurn/piscine_cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

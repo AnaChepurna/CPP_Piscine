@@ -19,6 +19,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/achepurn/piscine_cpp/day02/ex00/Fixed.cpp" "/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles/piscine_cpp.dir/day02/ex00/Fixed.cpp.o"
   "/Users/achepurn/piscine_cpp/day02/ex00/main.cpp" "/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles/piscine_cpp.dir/day02/ex00/main.cpp.o"
   "/Users/achepurn/piscine_cpp/day02/ex04/utils.cpp" "/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles/piscine_cpp.dir/day02/ex04/utils.cpp.o"
+  "/Users/achepurn/piscine_cpp/day04/ex01/AWeapon.cpp" "/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o"
+  "/Users/achepurn/piscine_cpp/day04/ex01/PlasmaRifle.cpp" "/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o"
+  "/Users/achepurn/piscine_cpp/day04/ex01/PowerFist.cpp" "/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

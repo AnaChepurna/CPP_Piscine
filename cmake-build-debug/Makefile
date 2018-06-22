@@ -528,6 +528,87 @@ day02/ex04/utils.cpp.s:
 	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day02/ex04/utils.cpp.s
 .PHONY : day02/ex04/utils.cpp.s
 
+day04/ex01/AWeapon.o: day04/ex01/AWeapon.cpp.o
+
+.PHONY : day04/ex01/AWeapon.o
+
+# target to build an object file
+day04/ex01/AWeapon.cpp.o:
+	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.o
+.PHONY : day04/ex01/AWeapon.cpp.o
+
+day04/ex01/AWeapon.i: day04/ex01/AWeapon.cpp.i
+
+.PHONY : day04/ex01/AWeapon.i
+
+# target to preprocess a source file
+day04/ex01/AWeapon.cpp.i:
+	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.i
+.PHONY : day04/ex01/AWeapon.cpp.i
+
+day04/ex01/AWeapon.s: day04/ex01/AWeapon.cpp.s
+
+.PHONY : day04/ex01/AWeapon.s
+
+# target to generate assembly for a file
+day04/ex01/AWeapon.cpp.s:
+	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day04/ex01/AWeapon.cpp.s
+.PHONY : day04/ex01/AWeapon.cpp.s
+
+day04/ex01/PlasmaRifle.o: day04/ex01/PlasmaRifle.cpp.o
+
+.PHONY : day04/ex01/PlasmaRifle.o
+
+# target to build an object file
+day04/ex01/PlasmaRifle.cpp.o:
+	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.o
+.PHONY : day04/ex01/PlasmaRifle.cpp.o
+
+day04/ex01/PlasmaRifle.i: day04/ex01/PlasmaRifle.cpp.i
+
+.PHONY : day04/ex01/PlasmaRifle.i
+
+# target to preprocess a source file
+day04/ex01/PlasmaRifle.cpp.i:
+	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.i
+.PHONY : day04/ex01/PlasmaRifle.cpp.i
+
+day04/ex01/PlasmaRifle.s: day04/ex01/PlasmaRifle.cpp.s
+
+.PHONY : day04/ex01/PlasmaRifle.s
+
+# target to generate assembly for a file
+day04/ex01/PlasmaRifle.cpp.s:
+	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day04/ex01/PlasmaRifle.cpp.s
+.PHONY : day04/ex01/PlasmaRifle.cpp.s
+
+day04/ex01/PowerFist.o: day04/ex01/PowerFist.cpp.o
+
+.PHONY : day04/ex01/PowerFist.o
+
+# target to build an object file
+day04/ex01/PowerFist.cpp.o:
+	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.o
+.PHONY : day04/ex01/PowerFist.cpp.o
+
+day04/ex01/PowerFist.i: day04/ex01/PowerFist.cpp.i
+
+.PHONY : day04/ex01/PowerFist.i
+
+# target to preprocess a source file
+day04/ex01/PowerFist.cpp.i:
+	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.i
+.PHONY : day04/ex01/PowerFist.cpp.i
+
+day04/ex01/PowerFist.s: day04/ex01/PowerFist.cpp.s
+
+.PHONY : day04/ex01/PowerFist.s
+
+# target to generate assembly for a file
+day04/ex01/PowerFist.cpp.s:
+	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day04/ex01/PowerFist.cpp.s
+.PHONY : day04/ex01/PowerFist.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -582,6 +663,15 @@ help:
 	@echo "... day02/ex04/utils.o"
 	@echo "... day02/ex04/utils.i"
 	@echo "... day02/ex04/utils.s"
+	@echo "... day04/ex01/AWeapon.o"
+	@echo "... day04/ex01/AWeapon.i"
+	@echo "... day04/ex01/AWeapon.s"
+	@echo "... day04/ex01/PlasmaRifle.o"
+	@echo "... day04/ex01/PlasmaRifle.i"
+	@echo "... day04/ex01/PlasmaRifle.s"
+	@echo "... day04/ex01/PowerFist.o"
+	@echo "... day04/ex01/PowerFist.i"
+	@echo "... day04/ex01/PowerFist.s"
 .PHONY : help
 
 

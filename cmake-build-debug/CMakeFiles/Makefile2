@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/achepurn/piscine_cpp/cmake-build-debug
 CMakeFiles/piscine_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target piscine_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target piscine_cpp"
 .PHONY : CMakeFiles/piscine_cpp.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/piscine_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/piscine_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/piscine_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/achepurn/piscine_cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/piscine_cpp.dir/rule
