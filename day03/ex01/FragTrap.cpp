@@ -5,7 +5,7 @@ hit_points(100), max_hit_points(100), energy_points(100),
 max_energy_points(100), level(1), name("John"), melee_attack_damage(30),
 ranged_attack_damage(20), armor_damage_reduction(5)
 {
-	std::cout << "Some John is here" << std::endl;
+	std::cout << "Some FragTrap John is here" << std::endl;
 }
 
 FragTrap::FragTrap(std::string const name):
@@ -13,12 +13,12 @@ FragTrap::FragTrap(std::string const name):
  max_energy_points(100), level(1), name(name), melee_attack_damage(30), 
  ranged_attack_damage(20), armor_damage_reduction(5)
  {
- 	std::cout << "Some " << name << " is here" << std::endl;
+ 	std::cout << "Some FragTrap " << name << " is here" << std::endl;
  }
 
 FragTrap::FragTrap(FragTrap const & src)
 {
-	std::cout << "Hmmm... " << name << " become copy of " << src.name << " now" << std::endl;
+	std::cout << "Hmmm... FragTrap" << name << " become copy of " << src.name << " now" << std::endl;
 	*this = src;
 }
 
