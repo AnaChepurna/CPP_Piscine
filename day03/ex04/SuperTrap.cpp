@@ -1,6 +1,6 @@
 #include "SuperTrap.hpp"
 
-SuperTrap::SuperTrap(void)//: FragTrap()//, NinjaTrap()
+SuperTrap::SuperTrap(void): FragTrap(), NinjaTrap()
 {
  	hit_points = FragTrap::_max_hit_points;
 	max_hit_points = FragTrap::_max_hit_points;
