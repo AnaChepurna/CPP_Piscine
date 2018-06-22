@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <time>
+#include <time.h>
 
 class FragTrap {
 
@@ -28,11 +28,11 @@ public:
 	std::string		getName(void) const;
 
 	FragTrap &	operator=(FragTrap const &);
-	void	rangedAttack(std::string const & target);
-	void	meleeAttack(std::string const & target);
+	int		rangedAttack(std::string const & target);
+	int		meleeAttack(std::string const & target);
 	void	takeDamage(unsigned int amount);
 	void	beRepaired(unsigned int amount);
-	void	vaulthunter_dot_exe(std::string const & target);
+	int		vaulthunter_dot_exe(std::string const & target);
 };
 
 #endif
