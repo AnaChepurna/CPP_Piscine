@@ -59,5 +59,15 @@ int		SuperTrap::meleeAttack(std::string const & target)
 
 SuperTrap & SuperTrap::operator=(SuperTrap const & src)
 {
-	*this = src;
+	std::cout << "Copying robot from " << src.name << std::endl;
+	hit_points = src.hit_points;
+	max_hit_points = src.hit_points;
+	energy_points = src.energy_points;
+	max_energy_points = src.max_energy_points;
+	level = src.level;
+	name = src.name;
+	melee_attack_damage = src.melee_attack_damage;
+	ranged_attack_damage = src.ranged_attack_damage;
+	armor_damage_reduction = src.armor_damage_reduction;
+	return (*this);
 }

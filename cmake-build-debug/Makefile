@@ -501,60 +501,6 @@ day02/ex00/main.cpp.s:
 	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day02/ex00/main.cpp.s
 .PHONY : day02/ex00/main.cpp.s
 
-day02/ex04/Stack.o: day02/ex04/Stack.cpp.o
-
-.PHONY : day02/ex04/Stack.o
-
-# target to build an object file
-day02/ex04/Stack.cpp.o:
-	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day02/ex04/Stack.cpp.o
-.PHONY : day02/ex04/Stack.cpp.o
-
-day02/ex04/Stack.i: day02/ex04/Stack.cpp.i
-
-.PHONY : day02/ex04/Stack.i
-
-# target to preprocess a source file
-day02/ex04/Stack.cpp.i:
-	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day02/ex04/Stack.cpp.i
-.PHONY : day02/ex04/Stack.cpp.i
-
-day02/ex04/Stack.s: day02/ex04/Stack.cpp.s
-
-.PHONY : day02/ex04/Stack.s
-
-# target to generate assembly for a file
-day02/ex04/Stack.cpp.s:
-	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day02/ex04/Stack.cpp.s
-.PHONY : day02/ex04/Stack.cpp.s
-
-day02/ex04/StackEntry.o: day02/ex04/StackEntry.cpp.o
-
-.PHONY : day02/ex04/StackEntry.o
-
-# target to build an object file
-day02/ex04/StackEntry.cpp.o:
-	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day02/ex04/StackEntry.cpp.o
-.PHONY : day02/ex04/StackEntry.cpp.o
-
-day02/ex04/StackEntry.i: day02/ex04/StackEntry.cpp.i
-
-.PHONY : day02/ex04/StackEntry.i
-
-# target to preprocess a source file
-day02/ex04/StackEntry.cpp.i:
-	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day02/ex04/StackEntry.cpp.i
-.PHONY : day02/ex04/StackEntry.cpp.i
-
-day02/ex04/StackEntry.s: day02/ex04/StackEntry.cpp.s
-
-.PHONY : day02/ex04/StackEntry.s
-
-# target to generate assembly for a file
-day02/ex04/StackEntry.cpp.s:
-	$(MAKE) -f CMakeFiles/piscine_cpp.dir/build.make CMakeFiles/piscine_cpp.dir/day02/ex04/StackEntry.cpp.s
-.PHONY : day02/ex04/StackEntry.cpp.s
-
 day02/ex04/utils.o: day02/ex04/utils.cpp.o
 
 .PHONY : day02/ex04/utils.o
@@ -633,12 +579,6 @@ help:
 	@echo "... day02/ex00/main.o"
 	@echo "... day02/ex00/main.i"
 	@echo "... day02/ex00/main.s"
-	@echo "... day02/ex04/Stack.o"
-	@echo "... day02/ex04/Stack.i"
-	@echo "... day02/ex04/Stack.s"
-	@echo "... day02/ex04/StackEntry.o"
-	@echo "... day02/ex04/StackEntry.i"
-	@echo "... day02/ex04/StackEntry.s"
 	@echo "... day02/ex04/utils.o"
 	@echo "... day02/ex04/utils.i"
 	@echo "... day02/ex04/utils.s"

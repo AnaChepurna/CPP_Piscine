@@ -140,18 +140,6 @@
 		<Unit filename="/Users/achepurn/piscine_cpp/day02/ex00/main.cpp">
 			<Option target="piscine_cpp"/>
 		</Unit>
-		<Unit filename="/Users/achepurn/piscine_cpp/day02/ex04/Stack.cpp">
-			<Option target="piscine_cpp"/>
-		</Unit>
-		<Unit filename="/Users/achepurn/piscine_cpp/day02/ex04/Stack.h">
-			<Option target="piscine_cpp"/>
-		</Unit>
-		<Unit filename="/Users/achepurn/piscine_cpp/day02/ex04/StackEntry.cpp">
-			<Option target="piscine_cpp"/>
-		</Unit>
-		<Unit filename="/Users/achepurn/piscine_cpp/day02/ex04/StackEntry.h">
-			<Option target="piscine_cpp"/>
-		</Unit>
 		<Unit filename="/Users/achepurn/piscine_cpp/day02/ex04/utils.cpp">
 			<Option target="piscine_cpp"/>
 		</Unit>

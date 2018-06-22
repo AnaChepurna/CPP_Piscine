@@ -14,8 +14,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/piscine_cpp.dir/day02/ex00/Fixed.cpp.o"
   "CMakeFiles/piscine_cpp.dir/day02/ex00/main.cpp.o"
   "CMakeFiles/piscine_cpp.dir/day02/ex04/utils.cpp.o"
-  "CMakeFiles/piscine_cpp.dir/day02/ex04/Stack.cpp.o"
-  "CMakeFiles/piscine_cpp.dir/day02/ex04/StackEntry.cpp.o"
   "piscine_cpp.pdb"
   "piscine_cpp"
 )
