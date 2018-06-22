@@ -2,6 +2,7 @@
 # define SORCERER_HPP
 
 #include <iostream>
+#include "Victim.hpp"
 
 class Sorcerer {
 
@@ -9,15 +10,18 @@ private:
 	std::string name;
 	std::string title;
 
-	ClapTrap(void);	
+	Sorcerer(void);	
 
 public:
-    ClapTrap(std::string const name);
-	ClapTrap(ClapTrap const & src);
-    ~ClapTrap(void);
-    std::string getName(void);
-    std::string getTitle(void);
-    ClapTrap &  ClapTrap::operator=(ClapTrap const & src);
+    Sorcerer(std::string const name, std::string const title);
+	Sorcerer(Sorcerer const & src);
+    ~Sorcerer(void);
+    std::string getName(void) const;
+    std::string getTitle(void) const;
+    Sorcerer &  operator=(Sorcerer const & src);
+    void polymorph(Victim & victim);
 };
+
+std::ostream &	operator<<(std::ostream & o, Sorcerer const & s);
 
 #endif
