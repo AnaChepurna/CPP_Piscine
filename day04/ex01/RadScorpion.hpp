@@ -16,7 +16,7 @@ public:
     RadScorpion();
     RadScorpion(RadScorpion const & src);
     virtual ~RadScorpion();
-    RadScorpion &operator=(RadScorpion const & src);
+    using Enemy::operator=;
     virtual void takeDamage(int damage);
 };
 

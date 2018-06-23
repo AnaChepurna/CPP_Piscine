@@ -8,7 +8,7 @@
 #include <iostream>
 
 class AWeapon {
-protected:
+private:
     std::string name;
     int  apcost;
     int  damage;

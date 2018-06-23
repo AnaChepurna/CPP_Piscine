@@ -18,7 +18,7 @@ public:
     PlasmaRifle();
     virtual ~PlasmaRifle();
     PlasmaRifle(PlasmaRifle const & src);
-    PlasmaRifle &  operator=(PlasmaRifle const & src);
+    using AWeapon::operator=;
     virtual void attack() const;
 };
 

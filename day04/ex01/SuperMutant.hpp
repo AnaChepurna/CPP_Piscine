@@ -16,7 +16,7 @@ public:
     SuperMutant();
     SuperMutant(SuperMutant const & src);
     virtual ~SuperMutant();
-    SuperMutant &operator=(SuperMutant const & src);
+    using Enemy::operator=;
     virtual void takeDamage(int);
 };
 
