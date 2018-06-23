@@ -4,17 +4,17 @@
 
 #include "PlasmaRifle.hpp"
 
-PlasmaRifle::PlasmaRifle():
-        name(_name), apcost(_apcost), damage(_damage)
-{}
+std::string const PlasmaRifle::_name = "Plasma Rifle";
+
+PlasmaRifle::PlasmaRifle()
+{
+    name = _name;
+    apcost = _apcost;
+    damage = _damage;
+}
 
 PlasmaRifle::~PlasmaRifle()
 {}
-
-PlasmaRifle::PlasmaRifle(PlasmaRifle &const src)
-{
-    *this = src;
-}
 
 PlasmaRifle &PlasmaRifle::operator=(PlasmaRifle const &src) {
     this->name = src.name;
@@ -23,8 +23,13 @@ PlasmaRifle &PlasmaRifle::operator=(PlasmaRifle const &src) {
     return (*this);
 }
 
-void PlasmaRifle::attack() const {
+void PlasmaRifle::attack() const
+{
     std::cout << "* piouuu piouuu piouuu *" << std::endl;
+}
+
+PlasmaRifle::PlasmaRifle(PlasmaRifle const &src) {
+    *this = src;
 }
 
 

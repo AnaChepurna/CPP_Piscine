@@ -11,13 +11,13 @@
 
 class PlasmaRifle: public AWeapon {
 protected:
-    static std::string const _name = "Plasma Rifle";
+    static std::string const _name;// = "Plasma Rifle";
     static int const _damage = 21;
     static int const _apcost = 5;
 public:
     PlasmaRifle();
     virtual ~PlasmaRifle();
-    PlasmaRifle(PlasmaRifle &const src);
+    PlasmaRifle(PlasmaRifle const & src);
     PlasmaRifle &  operator=(PlasmaRifle const & src);
     virtual void attack() const;
 };
