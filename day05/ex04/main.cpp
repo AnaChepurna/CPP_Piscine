@@ -33,6 +33,12 @@ int main( void ) {
     catch (Intern::NotExistingFormException e) {
         std::cout << e.what() << std::endl;
     }
+    catch (Bureaucrat::GradeTooHighException & e) {
+        std::cout << e.what() << std::endl;
+    }
+    catch (Bureaucrat::GradeTooLowException e) {
+        std::cout << e.what() << std::endl;
+    }
     catch (std::exception & e) {
         std::cout << "unexpected error cathed: " << e.what() << std::endl;
     }
@@ -60,6 +66,12 @@ int main( void ) {
     catch (Intern::NotExistingFormException e) {
         std::cout << e.what() << std::endl;
     }
+    catch (Bureaucrat::GradeTooHighException & e) {
+        std::cout << e.what() << std::endl;
+    }
+    catch (Bureaucrat::GradeTooLowException e) {
+        std::cout << e.what() << std::endl;
+    }
     catch (std::exception & e) {
         std::cout << "unexpected error cathed: " << e.what() << std::endl;
     }
@@ -84,6 +96,12 @@ int main( void ) {
     catch (Intern::NotExistingFormException & e) {
         std::cout << e.what() << std::endl;
     }
+    catch (Bureaucrat::GradeTooHighException & e) {
+        std::cout << e.what() << std::endl;
+    }
+    catch (Bureaucrat::GradeTooLowException e) {
+        std::cout << e.what() << std::endl;
+    }
     catch (std::exception & e) {
         std::cout << "unexpected error cathed: " << e.what() << std::endl;
     }
@@ -105,8 +123,14 @@ int main( void ) {
     catch (Form::IsNotSignedException e) {
         std::cout << e.what() << std::endl;
     }
-    catch (Intern::NotExistingFormException e) {
+    catch (Bureaucrat::GradeTooHighException & e) {
         std::cout << e.what() << std::endl;
+    }
+    catch (Bureaucrat::GradeTooLowException e) {
+        std::cout << e.what() << std::endl;
+    }
+    catch (std::exception & e) {
+        std::cout << "unexpected error cathed: " << e.what() << std::endl;
     }
 
 }
