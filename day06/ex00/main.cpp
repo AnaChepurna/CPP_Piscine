@@ -35,16 +35,16 @@ void case3(double d)
 {
     std::cout << "char: " << static_cast<char>(d) << std::endl;
     std::cout << "int: " << static_cast<int>(d) << std::endl;
-    std::cout << "float: " << static_cast<float>(d) << "f" << std::endl;
-    std::cout << "double: " << d << std::endl;
+    std::cout << "float: " << std::setprecision(1) << static_cast<float>(d) << "f" << std::endl;
+    std::cout << "double: " << std::setprecision(1) << d << std::endl;
 }
 
 void case4(double d, std::string str)
 {
     std::cout << str << std::endl;
     std::cout << "int: " << static_cast<int>(d) << std::endl;
-    std::cout << "float: "  << static_cast<float>(d) << "f" << std::endl;
-    std::cout << "double: "   << d << std::endl;
+    std::cout << "float: "  << std::setprecision(1) << static_cast<float>(d) << "f" << std::endl;
+    std::cout << "double: " << std::setprecision(1) << d << std::endl;
 }
 
 void convert(char *str)
