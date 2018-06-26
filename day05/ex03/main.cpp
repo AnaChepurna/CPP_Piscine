@@ -38,7 +38,7 @@ int main( void ) {
 
     try {
         std::cout  << "Form1 to Boss" << std::endl;
-        std::cout << form1;
+        std::cout << *form1;
         form1->beSigned(boss);
         std::cout << *form1;
     }
@@ -67,7 +67,7 @@ int main( void ) {
         std::cout << e.what() << std::endl;
     }
 
-    std::cout << form2;
+    std::cout << *form2;
     try {
         form2->execute(boss);
     }
