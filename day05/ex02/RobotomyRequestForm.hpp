@@ -22,7 +22,7 @@ public:
     RobotomyRequestForm(std::string target);
     RobotomyRequestForm(RobotomyRequestForm const & src);
     using Form::operator=;
-    ~RobotomyRequestForm();
+    virtual ~RobotomyRequestForm();
 
     virtual void execute(Bureaucrat const & executor) const;
 };

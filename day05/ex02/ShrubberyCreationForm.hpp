@@ -19,7 +19,7 @@ public:
     ShrubberyCreationForm(std::string target);
     ShrubberyCreationForm(ShrubberyCreationForm const & src);
     using Form::operator=;
-    ~ShrubberyCreationForm();
+    virtual ~ShrubberyCreationForm();
 
     virtual void execute(Bureaucrat const & executor) const;
 };

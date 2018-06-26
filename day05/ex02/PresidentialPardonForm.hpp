@@ -21,7 +21,7 @@ public:
     PresidentialPardonForm(std::string target);
     PresidentialPardonForm(PresidentialPardonForm const & src);
     using Form::operator=;
-    ~PresidentialPardonForm();
+    virtual ~PresidentialPardonForm();
 
     virtual void execute(Bureaucrat const & executor) const;
 };
