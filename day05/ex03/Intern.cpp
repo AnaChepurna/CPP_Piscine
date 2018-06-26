@@ -38,6 +38,22 @@ Form * Intern::makeForm(std::string form, std::string target)
         std::cout << "Intern created " << form << " Form" << std::endl;
         return (new PresidentialPardonForm(target));
     }
-    std::cout << "Requested form unknown." << std::endl;
-    return (NULL);
+    else
+        throw NotExistingFormException();
+}
+
+Intern::NotExistingFormException::NotExistingFormException() {}
+
+Intern::NotExistingFormException::NotExistingFormException(NotExistingFormException const & src) {
+    *this = src;
+}
+
+Intern::NotExistingFormException::~NotExistingFormException() throw() {}
+
+Intern::NotExistingFormException & Intern::NotExistingFormException::operator=(NotExistingFormException const &) {
+    return *this;
+}
+
+const char* Intern::NotExistingFormException::what() const throw() {
+    return ("Error: Undefined request");
 }

@@ -17,6 +17,16 @@ public:
     Intern & operator=( Intern const &);
 
     Form * makeForm(std::string form, std::string target);
+
+    class NotExistingFormException : public std::exception
+    {
+    public:
+        NotExistingFormException();
+        NotExistingFormException(NotExistingFormException const &);
+        ~NotExistingFormException() throw();
+        NotExistingFormException &		operator=(NotExistingFormException const &);
+        virtual const char* what() const throw();
+    };
 };
 
 

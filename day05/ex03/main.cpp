@@ -27,6 +27,14 @@ int main( void ) {
     std::cout << *form3;
 
     try {
+        Form * form4 = intern.makeForm("hahahaha", "hahaha");
+        std::cout << *form4;
+    }
+    catch (Intern::NotExistingFormException e) {
+        std::cout << e.what() << std::endl;
+    }
+
+    try {
         form1->execute(jerk);
     }
     catch (Form::GradeTooLowException e) {
@@ -87,9 +95,9 @@ int main( void ) {
     catch (Form::GradeTooLowException e) {
         std::cout << e.what() << std::endl;
     }
-//    delete form1;
-//    delete form2;
-//    delete form3;
+    delete form1;
+    delete form2;
+    delete form3;
 
     return (0);
 }
