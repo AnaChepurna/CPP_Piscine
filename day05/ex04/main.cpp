@@ -17,8 +17,6 @@ int main( void ) {
 
     try {
         officeBlock.doBureaucracy("first", "Office");
-//        Form * form = Intern().makeForm("gfgf", " fgfd");
-//        (void)form;
     }
     catch (OfficeBlock::IncompleteOfficeException e) {
         std::cout << e.what() << std::endl;
@@ -38,6 +36,7 @@ int main( void ) {
     catch (std::exception & e) {
         std::cout << "unexpected error cathed: " << e.what() << std::endl;
     }
+    std::cout << std::endl << std::endl << std::endl;
 
     officeBlock.setIntern(new Intern());
     officeBlock.setExecutor(new Bureaucrat("Jack", 74));
@@ -65,19 +64,18 @@ int main( void ) {
         std::cout << "unexpected error cathed: " << e.what() << std::endl;
     }
 
-
+    std::cout << std::endl << std::endl << std::endl;
 
     try {
         officeBlock.doBureaucracy("robotomy request", "School");
     }
-//    catch (OfficeBlock::IncompleteOfficeException & e) {
-//        std::cout << e.what() << std::endl;
-//    }
-//    catch (Form::GradeTooHighException & e) {
-//        std::cout << e.what() << std::endl;
-//    }
-    catch (Form::GradeTooLowException & e) {
-        std::cout << "I catch" << std::endl;
+    catch (OfficeBlock::IncompleteOfficeException & e) {
+        std::cout << e.what() << std::endl;
+    }
+    catch (Form::GradeTooHighException & e) {
+        std::cout << e.what() << std::endl;
+    }
+    catch (Form::GradeTooLowException & e) { ;
         std::cout << e.what() << std::endl;
     }
     catch (Form::IsNotSignedException & e) {
@@ -90,24 +88,25 @@ int main( void ) {
         std::cout << "unexpected error cathed: " << e.what() << std::endl;
     }
 
+    std::cout << std::endl << std::endl << std::endl;
 
-//    try {
-//        officeBlock.doBureaucracy("haha", "hah");
-//    }
-//    catch (OfficeBlock::IncompleteOfficeException e) {
-//        std::cout << e.what() << std::endl;
-//    }
-//    catch (Form::GradeTooHighException e) {
-//        std::cout << e.what() << std::endl;
-//    }
-//    catch (Form::GradeTooLowException e) {
-//        std::cout << e.what() << std::endl;
-//    }
-//    catch (Form::IsNotSignedException e) {
-//        std::cout << e.what() << std::endl;
-//    }
-//    catch (Intern::NotExistingFormException e) {
-//        std::cout << e.what() << std::endl;
-//    }
+    try {
+        officeBlock.doBureaucracy("shrubbery creation", "Park");
+    }
+    catch (OfficeBlock::IncompleteOfficeException e) {
+        std::cout << e.what() << std::endl;
+    }
+    catch (Form::GradeTooHighException e) {
+        std::cout << e.what() << std::endl;
+    }
+    catch (Form::GradeTooLowException e) {
+        std::cout << e.what() << std::endl;
+    }
+    catch (Form::IsNotSignedException e) {
+        std::cout << e.what() << std::endl;
+    }
+    catch (Intern::NotExistingFormException e) {
+        std::cout << e.what() << std::endl;
+    }
 
 }

@@ -25,7 +25,7 @@ public:
     void setIntern(Intern * intern);
     void setSigner(Bureaucrat * signer);
     void setExecutor(Bureaucrat * executor);
-    void doBureaucracy(std::string const formname, std::string const target) throw();
+    void doBureaucracy(std::string const formname, std::string const target);
 
     class IncompleteOfficeException : public std::exception
     {

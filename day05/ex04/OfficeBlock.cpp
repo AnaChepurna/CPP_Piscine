@@ -43,7 +43,7 @@ void OfficeBlock::setExecutor(Bureaucrat *executor) {
     this->executor = executor;
 }
 
-void OfficeBlock::doBureaucracy(std::string const formname, std::string const target) throw() {
+void OfficeBlock::doBureaucracy(std::string const formname, std::string const target) {
     std::cout << "Request : " << formname << " to " << target << std::endl;
     if (!intern || !signer || !executor)
         throw IncompleteOfficeException();
@@ -59,14 +59,12 @@ void OfficeBlock::doBureaucracy(std::string const formname, std::string const ta
             std::cout << "Form is signed successfully" << std::endl;
             std::cout << "Form transferred to execution to " << *executor;
             form->execute(*executor);
-            std::cout << "Request : " << formname << " to "
-                      << "target " << target << ", " << *form << " is fulfilled" << std::endl;
+            std::cout << "Request : " << formname << " to " << target << " is fulfilled" << std::endl;
         }
         catch (Intern::NotExistingFormException &e) {
             throw Intern::NotExistingFormException(e);
         }
         catch (Form::GradeTooLowException &e) {
-            std::cout << "I catch" << std::endl;
             throw Form::GradeTooLowException(e);
         }
         catch (Form::GradeTooHighException &e) {
