@@ -6,7 +6,6 @@
 #define EASYFIND_H
 
 #include <algorithm>
-#include <list>
 
 template < typename T>
 
